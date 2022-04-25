@@ -10,6 +10,7 @@ def transcode_file(request, filename):
 
 def load_config(filename):
     # Load a configuration file into YAML
+    ahoj = 38
     stream = file.open(filename, "w")
     config = yaml.load(stream)
 
